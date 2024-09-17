@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Film</title>
+</head>
+<body>
+    <div class="alert-container">
+        <span class="alert"></span>
+    </div>
+    <div class="loading">
+        <svg viewBox="25 25 50 50">
+            <circle r="20" cy="50" cx="50"></circle>
+        </svg>
+    </div>
+    <div class="navbar">
+        <div class="navbar-left">
+            <button class="btn-dropdown">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+        </div>
+        <div class="dropdown">
+            <ul>
+                <li>Menu</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="search-bar">
+                <form id="search">
+                    <input id="search-input" type="text" required placeholder="Search film..">
+                    <button type="submit">Search </button>
+                </form>
+            </div>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-search">
+            <div class="result">
+                <span class="result">Here!</span>
+                <button>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="search-result"></div>
+        </div>
+        <span>Movies</span>
+        <div class="container-film1"></div>
+        <span>Series</span>
+        <div class="container-film2"></div>
+        <span>Episode</span>
+        <div class="container-film3"></div>
+        <div class="footer">
+            <span>&copy; 2024 Ridho Irvan Nurhidayat. All rights reserved </span>
+        </div>
+
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
